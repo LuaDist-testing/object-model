@@ -1,21 +1,21 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = 'object-model'
-version = '0.1.0-1'
+version = '0.1.1-1'
 -- LuaDist source
 source = {
-  tag = "0.1.0-1",
+  tag = "0.1.1-1",
   url = "git://github.com/LuaDist-testing/object-model.git"
 }
 -- Original source
 -- source = {
 --     url = 'git://github.com/ShiraNai7/lua-object-model.git',
---     tag = 'v0.1.0',
+--     tag = 'v0.1.1',
 -- }
 description = {
     summary = "Simple object model implementation in Lua",
     detailed = [[
-        Simple object model implementation in Lua (~100 lines of code, including comments).
+        Simple object model implementation in Lua.
 
         Inspired by http://lua-users.org/wiki/SimpleLuaClasses
     ]],
@@ -24,7 +24,7 @@ description = {
     license = 'MIT',
 }
 dependencies = {
-    'lua >= 5.2',
+    'lua >= 5.1',
 }
 build = {
     type = 'builtin',
