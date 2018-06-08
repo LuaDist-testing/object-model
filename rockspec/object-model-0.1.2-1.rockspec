@@ -1,17 +1,9 @@
--- This file was automatically generated for the LuaDist project.
-
 package = 'object-model'
-version = '0.1.1-1'
--- LuaDist source
+version = '0.1.2-1'
 source = {
-  tag = "0.1.1-1",
-  url = "git://github.com/LuaDist-testing/object-model.git"
+    url = 'git://github.com/ShiraNai7/lua-object-model.git',
+    tag = 'v0.1.2',
 }
--- Original source
--- source = {
---     url = 'git://github.com/ShiraNai7/lua-object-model.git',
---     tag = 'v0.1.1',
--- }
 description = {
     summary = "Simple object model implementation in Lua",
     detailed = [[
